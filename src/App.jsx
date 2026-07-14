@@ -255,16 +255,11 @@ onChange={(e)=>setClientAddress(e.target.value)}
 <div className="invoice-summary">
   <h2>Invoice Summary</h2>
   <p><strong>Invoice Number:</strong> {invoiceNumber}</p>
-
 <p><strong>Date:</strong> {invoiceDate}</p>
-
 <p><strong>Client:</strong> {clientName}</p>
-
 <p><strong>Address:</strong> {clientAddress}</p>
 <p>Subtotal : ₹{subtotal.toFixed(2)}</p>
-
 <p>GST : ₹{totalGST.toFixed(2)}</p>
-
 <p><strong>Grand Total : ₹{grandTotal.toFixed(2)}</strong></p>
 </div>
 <button onClick={addNewItem}>

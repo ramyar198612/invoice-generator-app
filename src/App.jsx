@@ -153,6 +153,7 @@ const generatePDF = () => {
           value={invoiceDate}
          onChange={(e)=>setInvoiceDate(e.target.value)}
         />
+        </div>
       <div className="client-info">
 
 <input
@@ -274,8 +275,6 @@ onChange={(e)=>setClientAddress(e.target.value)}
 </button>
 </div>
       </div>
-    </div>
   );
 }
-
 export default App;
